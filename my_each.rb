@@ -1,13 +1,12 @@
-def my_each(word) # put argument(s) here
+def my_each(array) # put argument(s) here
   counter = 0
 
-  while n < array.length
-    my_each(word) do |word|
+  while counter < array.length
 
-      yield word
+      yield(word[counter])
 
     counter += 1
 
       end
-  end
+  array
 end
